@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_26e8fe7e657c4f2fdb2e18d64ecab11a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_26e8fe7e657c4f2fdb2e18d64ecab11a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_26e8fe7e657c4f2fdb2e18d64ecab11a = L.map(
+                "map_26e8fe7e657c4f2fdb2e18d64ecab11a",
+                {
+                    center: [52.4862, -1.8904],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_65dea93dd398d44bacc9fbbdad5d1191 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var marker_0fc34dbff6e9f3cfb5b09858f127c11a = L.marker(
+                [51.446, -0.329],
+                {}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var icon_a8c02f15c9ad9d401e3b9cdfafca48b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0fc34dbff6e9f3cfb5b09858f127c11a.setIcon(icon_a8c02f15c9ad9d401e3b9cdfafca48b0);
+        
+    
+        var popup_d23e5cc03d43fdb0f6b1363c9e88f5c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1af51bc19f6f66c220f98204be0f47b = $(`<div id="html_b1af51bc19f6f66c220f98204be0f47b" style="width: 100.0%; height: 100.0%;">Day 1 - Stop 1: William Webb Ellis</div>`)[0];
+            popup_d23e5cc03d43fdb0f6b1363c9e88f5c1.setContent(html_b1af51bc19f6f66c220f98204be0f47b);
+        
+
+        marker_0fc34dbff6e9f3cfb5b09858f127c11a.bindPopup(popup_d23e5cc03d43fdb0f6b1363c9e88f5c1)
+        ;
+
+        
+    
+    
+            var marker_aef938dacd73b099f06ea0338312d122 = L.marker(
+                [51.492, -0.228],
+                {}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var icon_dfbbe714210a226f32940589d88260f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aef938dacd73b099f06ea0338312d122.setIcon(icon_dfbbe714210a226f32940589d88260f5);
+        
+    
+        var popup_03fc6ae36c31b3267dda5305a76b77b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69feef18f04528d81dd39f2f1321d07f = $(`<div id="html_69feef18f04528d81dd39f2f1321d07f" style="width: 100.0%; height: 100.0%;">Day 1 - Stop 2: Plough & Harrow</div>`)[0];
+            popup_03fc6ae36c31b3267dda5305a76b77b7.setContent(html_69feef18f04528d81dd39f2f1321d07f);
+        
+
+        marker_aef938dacd73b099f06ea0338312d122.bindPopup(popup_03fc6ae36c31b3267dda5305a76b77b7)
+        ;
+
+        
+    
+    
+            var marker_98582cf05da6e15a7441582cffcc9fe2 = L.marker(
+                [51.528, -0.141],
+                {}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var icon_aeae13dad373b849e113f52ae6393049 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_98582cf05da6e15a7441582cffcc9fe2.setIcon(icon_aeae13dad373b849e113f52ae6393049);
+        
+    
+        var popup_5a63f570d53bd7e20be295ee927683a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe269a46e1777e23c7f2ae5da28b1add = $(`<div id="html_fe269a46e1777e23c7f2ae5da28b1add" style="width: 100.0%; height: 100.0%;">Day 1 - Stop 3: Metropolitan</div>`)[0];
+            popup_5a63f570d53bd7e20be295ee927683a3.setContent(html_fe269a46e1777e23c7f2ae5da28b1add);
+        
+
+        marker_98582cf05da6e15a7441582cffcc9fe2.bindPopup(popup_5a63f570d53bd7e20be295ee927683a3)
+        ;
+
+        
+    
+    
+            var marker_84d07079ee7319aab23bfa2b2aa01142 = L.marker(
+                [51.528, -0.141],
+                {}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var icon_225d295026986027853791c3cafef26a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_84d07079ee7319aab23bfa2b2aa01142.setIcon(icon_225d295026986027853791c3cafef26a);
+        
+    
+        var popup_73fbc9d7e42975e9b90aab35c928111e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_032367fa0f67dbb2c19788dcd9da89ea = $(`<div id="html_032367fa0f67dbb2c19788dcd9da89ea" style="width: 100.0%; height: 100.0%;">Overnight Stay: Metropolitan (Premier Inn Nearby)</div>`)[0];
+            popup_73fbc9d7e42975e9b90aab35c928111e.setContent(html_032367fa0f67dbb2c19788dcd9da89ea);
+        
+
+        marker_84d07079ee7319aab23bfa2b2aa01142.bindPopup(popup_73fbc9d7e42975e9b90aab35c928111e)
+        ;
+
+        
+    
+    
+            var marker_da1310b9da4e7ad253e92eb0213aba0f = L.marker(
+                [51.519, -0.104],
+                {}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var icon_5a8977d9d638b0da6e0267ca4a876c68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da1310b9da4e7ad253e92eb0213aba0f.setIcon(icon_5a8977d9d638b0da6e0267ca4a876c68);
+        
+    
+        var popup_3a6a66d55b339a7f5f0f29abdbae5c56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0665f7e0e413630b4f6ea7e5b7808b0c = $(`<div id="html_0665f7e0e413630b4f6ea7e5b7808b0c" style="width: 100.0%; height: 100.0%;">Day 2 - Stop 1: Sir John Oldcastle</div>`)[0];
+            popup_3a6a66d55b339a7f5f0f29abdbae5c56.setContent(html_0665f7e0e413630b4f6ea7e5b7808b0c);
+        
+
+        marker_da1310b9da4e7ad253e92eb0213aba0f.bindPopup(popup_3a6a66d55b339a7f5f0f29abdbae5c56)
+        ;
+
+        
+    
+    
+            var marker_f584f2813dd264e544d3ea9788fbcc9a = L.marker(
+                [51.51, -0.078],
+                {}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var icon_91eaeb953d0d6e2a6767b242680ef8bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f584f2813dd264e544d3ea9788fbcc9a.setIcon(icon_91eaeb953d0d6e2a6767b242680ef8bc);
+        
+    
+        var popup_9428b50d0baa88abbce1f2150d006f92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bd1c46408ffce9f59a7275d9e29286c = $(`<div id="html_5bd1c46408ffce9f59a7275d9e29286c" style="width: 100.0%; height: 100.0%;">Day 2 - Stop 2: Liberty Bounds</div>`)[0];
+            popup_9428b50d0baa88abbce1f2150d006f92.setContent(html_5bd1c46408ffce9f59a7275d9e29286c);
+        
+
+        marker_f584f2813dd264e544d3ea9788fbcc9a.bindPopup(popup_9428b50d0baa88abbce1f2150d006f92)
+        ;
+
+        
+    
+    
+            var marker_56622917e3c5d14f23fd33a521da7380 = L.marker(
+                [51.507, -0.071],
+                {}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var icon_2e4fc4426a053613b81aa74acee724c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56622917e3c5d14f23fd33a521da7380.setIcon(icon_2e4fc4426a053613b81aa74acee724c9);
+        
+    
+        var popup_1a4ac211d81aab6ef55ecc14276afa24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab1b5dc5fb8e18875df9b790e2634e52 = $(`<div id="html_ab1b5dc5fb8e18875df9b790e2634e52" style="width: 100.0%; height: 100.0%;">Day 2 - Stop 3: Ledger Building</div>`)[0];
+            popup_1a4ac211d81aab6ef55ecc14276afa24.setContent(html_ab1b5dc5fb8e18875df9b790e2634e52);
+        
+
+        marker_56622917e3c5d14f23fd33a521da7380.bindPopup(popup_1a4ac211d81aab6ef55ecc14276afa24)
+        ;
+
+        
+    
+    
+            var poly_line_36da12cc495d5195f1790446a656a50d = L.polyline(
+                [[51.446, -0.329], [51.492, -0.228]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var poly_line_3ce8f11577faa2f08e51fdc922a0902d = L.polyline(
+                [[51.492, -0.228], [51.528, -0.141]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var poly_line_c5207418cc3cfd1578e400436002c030 = L.polyline(
+                [[51.528, -0.141], [51.519, -0.104]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var poly_line_9b3ee5afe5aa4bc98171f7d14a36965e = L.polyline(
+                [[51.519, -0.104], [51.51, -0.078]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+    
+            var poly_line_12789c76407f15db415de67525c0a30a = L.polyline(
+                [[51.51, -0.078], [51.507, -0.071]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_26e8fe7e657c4f2fdb2e18d64ecab11a);
+        
+</script>
+</html>
